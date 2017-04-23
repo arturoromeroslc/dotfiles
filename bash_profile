@@ -1,6 +1,7 @@
 export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
 export PATH="$PATH:$HOME/.rvm/bin"
 export NVM_DIR="$HOME/.nvm"
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 export TERM=xterm-256color
 
@@ -127,5 +128,6 @@ _npm_install_completion () {
 # bind the above function to `npm` autocompletion
 complete -o default -F _npm_install_completion npm
 ## END BASH npm install autocomplete
-
+# make sure and install brew
+# to get subl to work run this: $ ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
