@@ -1,0 +1,12 @@
+"*":
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    telemetryConsent: "limited"
+  editor:
+    fontSize: 12
+    invisibles:
+      eol: " "
+      tab: " "
+    showInvisibles: true
